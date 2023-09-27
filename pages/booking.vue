@@ -10,7 +10,7 @@
               </span>
               <v-divider />
             </v-col>
-            <v-col v-for="(a, i) in artists" :key="`artist-card-${i}`" cols="6">
+            <v-col v-for="(a, i) in artists" :key="`artist-card-${i}`" cols="6" md="3">
               <v-item v-slot="{ active, toggle }" :value="i">
                 <artist-card :artist="a" :active="active" @click="toggle" />
               </v-item>
