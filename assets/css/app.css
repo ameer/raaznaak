@@ -22,3 +22,6 @@ body,
 .v-card--link:before {
   border-radius: inherit !important;
 }
+.holder-logo {
+  display: none !important;
+}

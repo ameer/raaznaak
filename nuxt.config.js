@@ -63,10 +63,6 @@ export default {
       current: 'fa'
     },
     treeShake: true,
-    defaultAssets: {
-      font: false,
-      icons: true
-    },
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
